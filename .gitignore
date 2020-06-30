@@ -219,3 +219,8 @@ ios/AWMY/fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 ios/AWMY/iOSInjectionProject/
+
+
+*/**/*.framework
+*/**/*-sources.jar
+*/**/*.aar

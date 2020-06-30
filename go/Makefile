@@ -7,7 +7,7 @@ android:
 
 ios:
 	@mkdir -p ../build/ios/
-	@gomobile bind -v -target=ios -o=../build/ios/AWMY.framework github.com/ToJen/awmy/tryhttp
+	@gomobile bind -v -target=ios github.com/ToJen/awmy/tryhttp
 
 clean:
 	@rm -Rf ../build/android/

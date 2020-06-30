@@ -16,6 +16,7 @@
 		AFD3071824AB86180001DD37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD3071724AB86180001DD37 /* main.m */; };
 		AFD3072224AB86180001DD37 /* AWMYTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD3072124AB86180001DD37 /* AWMYTests.m */; };
 		AFD3072D24AB86180001DD37 /* AWMYUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD3072C24AB86180001DD37 /* AWMYUITests.m */; };
+		AFD3073D24AB99030001DD37 /* Tryhttp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD3073C24AB99030001DD37 /* Tryhttp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		AFD3072824AB86180001DD37 /* AWMYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWMYUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD3072C24AB86180001DD37 /* AWMYUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWMYUITests.m; sourceTree = "<group>"; };
 		AFD3072E24AB86180001DD37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFD3073C24AB99030001DD37 /* Tryhttp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Tryhttp.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFD3073D24AB99030001DD37 /* Tryhttp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +87,7 @@
 		AFD306F924AB86160001DD37 = {
 			isa = PBXGroup;
 			children = (
+				AFD3073C24AB99030001DD37 /* Tryhttp.framework */,
 				AFD3070424AB86160001DD37 /* AWMY */,
 				AFD3072024AB86180001DD37 /* AWMYTests */,
 				AFD3072B24AB86180001DD37 /* AWMYUITests */,
@@ -440,6 +444,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = AWMY/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,6 +464,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = AWMY/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
